@@ -1,0 +1,29 @@
+{
+    "name": "amplify/marketing",
+    "description": "This is a Marketing module for amplify",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Hafijul Islam",
+            "email": "hafijul.islam@easyask.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-gd": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amplify\\System\\Marketing\\": "./"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Amplify\\System\\Marketing\\MarketingServiceProvider"
+            ]
+        }
+    }
+}
