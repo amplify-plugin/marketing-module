@@ -12,7 +12,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "ext-gd": "*"
+        "ext-gd": "*",
+        "amplify/sayt" : "*"
     },
     "autoload": {
         "psr-4": {
