@@ -17,7 +17,10 @@
     "autoload": {
         "psr-4": {
             "Amplify\\System\\Marketing\\": "./"
-        }
+        },
+        "files": [
+            "./helpers.php"
+        ]
     },
     "extra": {
         "laravel": {
