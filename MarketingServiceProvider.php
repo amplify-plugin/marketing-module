@@ -23,8 +23,10 @@ class MarketingServiceProvider extends ServiceProvider
             __DIR__.'/Config/marketing.php',
             'amplify.marketing'
         );
+    }
 
+    public function boot()
+    {
         $this->loadRoutesFrom(__DIR__.'/Routes/web.php');
-
     }
 }
