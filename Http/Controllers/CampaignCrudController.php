@@ -7,7 +7,7 @@ use Amplify\System\Marketing\Http\Request\CampaignRequest;
 use Amplify\System\Marketing\Models\Campaign;
 use Amplify\System\Cms\Models\BannerZone;
 use Amplify\System\Cms\Models\Page;
-use App\Abstracts\BackpackCustomCrudController;
+use Amplify\System\Abstracts\BackpackCustomCrudController;
 use App\Models\Product;
 use Backpack\CRUD\app\Library\CrudPanel\CrudPanelFacade as CRUD;
 use Illuminate\Foundation\Application;

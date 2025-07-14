@@ -3,7 +3,7 @@
 namespace Amplify\System\Marketing\Http\Controllers;
 
 use Amplify\System\Marketing\Http\Request\MerchandisingZoneRequest;
-use App\Abstracts\BackpackCustomCrudController;
+use Amplify\System\Abstracts\BackpackCustomCrudController;
 use Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;
 use Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
 use Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
